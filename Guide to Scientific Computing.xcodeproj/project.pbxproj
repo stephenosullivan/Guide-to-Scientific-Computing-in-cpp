@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572955621BCF1A7A00BDDD13 /* Exercise5_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572955611BCF1A7A00BDDD13 /* Exercise5_1.cpp */; };
+		572955641BCF1BAA00BDDD13 /* Exercise5_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572955631BCF1BAA00BDDD13 /* Exercise5_2.cpp */; };
+		572955661BCF1CD100BDDD13 /* Exercise5_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572955651BCF1CD100BDDD13 /* Exercise5_3.cpp */; };
+		572955681BCF217B00BDDD13 /* Exercise5_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572955671BCF217B00BDDD13 /* Exercise5_4.cpp */; };
+		5729556A1BCF2BC000BDDD13 /* Exercise5_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 572955691BCF2BC000BDDD13 /* Exercise5_5.cpp */; };
+		5729556C1BD0656500BDDD13 /* Exercise5_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5729556B1BD0656500BDDD13 /* Exercise5_7.cpp */; };
+		5729556E1BD06A3600BDDD13 /* Exercise5_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5729556D1BD06A3600BDDD13 /* Exercise5_8.cpp */; };
 		57B305691BCC64890095623B /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B305681BCC64890095623B /* HelloWorld.cpp */; };
 		57B3056B1BCC6A710095623B /* keyboard_input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3056A1BCC6A710095623B /* keyboard_input.cpp */; };
 		57B3056D1BCC6BCA0095623B /* assert_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3056C1BCC6BCA0095623B /* assert_test.cpp */; };
@@ -42,6 +49,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		572955611BCF1A7A00BDDD13 /* Exercise5_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_1.cpp; path = Guide_to_Scientific_Computing/Exercise5_1.cpp; sourceTree = "<group>"; };
+		572955631BCF1BAA00BDDD13 /* Exercise5_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_2.cpp; path = Guide_to_Scientific_Computing/Exercise5_2.cpp; sourceTree = "<group>"; };
+		572955651BCF1CD100BDDD13 /* Exercise5_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_3.cpp; path = Guide_to_Scientific_Computing/Exercise5_3.cpp; sourceTree = "<group>"; };
+		572955671BCF217B00BDDD13 /* Exercise5_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_4.cpp; path = Guide_to_Scientific_Computing/Exercise5_4.cpp; sourceTree = "<group>"; };
+		572955691BCF2BC000BDDD13 /* Exercise5_5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_5.cpp; path = Guide_to_Scientific_Computing/Exercise5_5.cpp; sourceTree = "<group>"; };
+		5729556B1BD0656500BDDD13 /* Exercise5_7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_7.cpp; path = Guide_to_Scientific_Computing/Exercise5_7.cpp; sourceTree = "<group>"; };
+		5729556D1BD06A3600BDDD13 /* Exercise5_8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise5_8.cpp; path = Guide_to_Scientific_Computing/Exercise5_8.cpp; sourceTree = "<group>"; };
 		57B305661BCC61D50095623B /* Guide to Scientific Computing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Guide to Scientific Computing"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B305681BCC64890095623B /* HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorld.cpp; path = Guide_to_Scientific_Computing/HelloWorld.cpp; sourceTree = "<group>"; };
 		57B3056A1BCC6A710095623B /* keyboard_input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keyboard_input.cpp; path = Guide_to_Scientific_Computing/keyboard_input.cpp; sourceTree = "<group>"; };
@@ -87,6 +101,13 @@
 				57B3058A1BCDF9880095623B /* Exercise4_2.cpp */,
 				57B3058C1BCEEAF90095623B /* Exercise4_3.cpp */,
 				57B3058E1BCEF8720095623B /* Exercise4_4.cpp */,
+				572955611BCF1A7A00BDDD13 /* Exercise5_1.cpp */,
+				572955631BCF1BAA00BDDD13 /* Exercise5_2.cpp */,
+				572955651BCF1CD100BDDD13 /* Exercise5_3.cpp */,
+				572955671BCF217B00BDDD13 /* Exercise5_4.cpp */,
+				572955691BCF2BC000BDDD13 /* Exercise5_5.cpp */,
+				5729556B1BD0656500BDDD13 /* Exercise5_7.cpp */,
+				5729556D1BD06A3600BDDD13 /* Exercise5_8.cpp */,
 				57B3056E1BCC6F320095623B /* Exercise1_2.cpp */,
 				57B305701BCC701C0095623B /* Exercise1_3.cpp */,
 				57B305721BCC78D40095623B /* Exercise1_4.cpp */,
@@ -159,21 +180,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5729556E1BD06A3600BDDD13 /* Exercise5_8.cpp in Sources */,
+				572955681BCF217B00BDDD13 /* Exercise5_4.cpp in Sources */,
+				5729556C1BD0656500BDDD13 /* Exercise5_7.cpp in Sources */,
 				57B305751BCC91B00095623B /* Exercise1_5.cpp in Sources */,
+				572955661BCF1CD100BDDD13 /* Exercise5_3.cpp in Sources */,
 				57B3056D1BCC6BCA0095623B /* assert_test.cpp in Sources */,
 				57B305811BCDA51F0095623B /* Exercise2_6.cpp in Sources */,
 				57B3058F1BCEF8720095623B /* Exercise4_4.cpp in Sources */,
 				57B305691BCC64890095623B /* HelloWorld.cpp in Sources */,
 				57B305891BCDF8170095623B /* Exercise4_1.cpp in Sources */,
+				5729556A1BCF2BC000BDDD13 /* Exercise5_5.cpp in Sources */,
 				57B305731BCC78D40095623B /* Exercise1_4.cpp in Sources */,
 				57B3056F1BCC6F320095623B /* Exercise1_2.cpp in Sources */,
 				57B305711BCC701C0095623B /* Exercise1_3.cpp in Sources */,
+				572955621BCF1A7A00BDDD13 /* Exercise5_1.cpp in Sources */,
 				57B305831BCDB8E60095623B /* Exercise3_1.cpp in Sources */,
 				57B3058B1BCDF9880095623B /* Exercise4_2.cpp in Sources */,
 				57B305771BCC938A0095623B /* Exercise1_6.cpp in Sources */,
 				57B305791BCC9E3E0095623B /* Exercise2_2.cpp in Sources */,
 				57B3058D1BCEEAF90095623B /* Exercise4_3.cpp in Sources */,
 				57B305851BCDBCF10095623B /* Exercise3_2.cpp in Sources */,
+				572955641BCF1BAA00BDDD13 /* Exercise5_2.cpp in Sources */,
 				57B3057B1BCCA1680095623B /* Exercise2_3.cpp in Sources */,
 				57B3056B1BCC6A710095623B /* keyboard_input.cpp in Sources */,
 				57B305871BCDBF920095623B /* Exercise3_3.cpp in Sources */,
