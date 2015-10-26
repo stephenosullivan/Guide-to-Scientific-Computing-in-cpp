@@ -27,6 +27,11 @@
 		575BC4111BD86DD6008E36A5 /* RungeKuttaSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC40F1BD86DD6008E36A5 /* RungeKuttaSolver.cpp */; };
 		575BC4131BD94FE3008E36A5 /* Exercise8_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC4121BD94FE3008E36A5 /* Exercise8_1.cpp */; };
 		575BC4151BD98203008E36A5 /* Exercise8_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC4141BD98203008E36A5 /* Exercise8_2.cpp */; };
+		575BC4171BD9997C008E36A5 /* Exercise8_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC4161BD9997C008E36A5 /* Exercise8_3.cpp */; };
+		575BC41A1BD9FA4C008E36A5 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC4181BD9FA4C008E36A5 /* Exception.cpp */; };
+		575BC41C1BD9FCDB008E36A5 /* Exercise9_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC41B1BD9FCDB008E36A5 /* Exercise9_1.cpp */; };
+		575BC41F1BDA01C5008E36A5 /* FileNotOpenException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC41D1BDA01C5008E36A5 /* FileNotOpenException.cpp */; };
+		575BC4221BDA01E7008E36A5 /* OutOfRangeException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575BC4201BDA01E7008E36A5 /* OutOfRangeException.cpp */; };
 		57B305691BCC64890095623B /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B305681BCC64890095623B /* HelloWorld.cpp */; };
 		57B3056B1BCC6A710095623B /* keyboard_input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3056A1BCC6A710095623B /* keyboard_input.cpp */; };
 		57B3056D1BCC6BCA0095623B /* assert_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3056C1BCC6BCA0095623B /* assert_test.cpp */; };
@@ -47,10 +52,26 @@
 		57B3058B1BCDF9880095623B /* Exercise4_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3058A1BCDF9880095623B /* Exercise4_2.cpp */; };
 		57B3058D1BCEEAF90095623B /* Exercise4_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3058C1BCEEAF90095623B /* Exercise4_3.cpp */; };
 		57B3058F1BCEF8720095623B /* Exercise4_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B3058E1BCEF8720095623B /* Exercise4_4.cpp */; };
+		57C2BC8B1BDAD29400B7D1D3 /* Exercise9_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C2BC8A1BDAD29400B7D1D3 /* Exercise9_2.cpp */; };
+		57C2BC8D1BDADD4100B7D1D3 /* Exercise9_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C2BC8C1BDADD4100B7D1D3 /* Exercise9_3.cpp */; };
+		57C3517F1BDC18A900406D82 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C3517D1BDC18A900406D82 /* Vector.cpp */; };
+		57C351821BDC18BC00406D82 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351801BDC18BC00406D82 /* Matrix.cpp */; };
+		57C351841BDC43F800406D82 /* MpiHelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351831BDC43F800406D82 /* MpiHelloWorld.cpp */; };
+		57C3518C1BDD8FD300406D82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C3518B1BDD8FD300406D82 /* main.cpp */; };
+		57C351911BDDA95100406D82 /* Exercise10_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351901BDDA95100406D82 /* Exercise10_1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		577365ED1B6DEB260021D747 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		57C351871BDD8FD300406D82 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -90,6 +111,14 @@
 		575BC4101BD86DD6008E36A5 /* RungeKuttaSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RungeKuttaSolver.h; path = Guide_to_Scientific_Computing/RungeKuttaSolver.h; sourceTree = "<group>"; };
 		575BC4121BD94FE3008E36A5 /* Exercise8_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise8_1.cpp; path = Guide_to_Scientific_Computing/Exercise8_1.cpp; sourceTree = "<group>"; };
 		575BC4141BD98203008E36A5 /* Exercise8_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise8_2.cpp; path = Guide_to_Scientific_Computing/Exercise8_2.cpp; sourceTree = "<group>"; };
+		575BC4161BD9997C008E36A5 /* Exercise8_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise8_3.cpp; path = Guide_to_Scientific_Computing/Exercise8_3.cpp; sourceTree = "<group>"; };
+		575BC4181BD9FA4C008E36A5 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exception.cpp; path = Guide_to_Scientific_Computing/Exception.cpp; sourceTree = "<group>"; };
+		575BC4191BD9FA4C008E36A5 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exception.h; path = Guide_to_Scientific_Computing/Exception.h; sourceTree = "<group>"; };
+		575BC41B1BD9FCDB008E36A5 /* Exercise9_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise9_1.cpp; path = Guide_to_Scientific_Computing/Exercise9_1.cpp; sourceTree = "<group>"; };
+		575BC41D1BDA01C5008E36A5 /* FileNotOpenException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FileNotOpenException.cpp; path = Guide_to_Scientific_Computing/FileNotOpenException.cpp; sourceTree = "<group>"; };
+		575BC41E1BDA01C5008E36A5 /* FileNotOpenException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileNotOpenException.h; path = Guide_to_Scientific_Computing/FileNotOpenException.h; sourceTree = "<group>"; };
+		575BC4201BDA01E7008E36A5 /* OutOfRangeException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OutOfRangeException.cpp; path = Guide_to_Scientific_Computing/OutOfRangeException.cpp; sourceTree = "<group>"; };
+		575BC4211BDA01E7008E36A5 /* OutOfRangeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutOfRangeException.h; path = Guide_to_Scientific_Computing/OutOfRangeException.h; sourceTree = "<group>"; };
 		57B305661BCC61D50095623B /* Guide to Scientific Computing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Guide to Scientific Computing"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B305681BCC64890095623B /* HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorld.cpp; path = Guide_to_Scientific_Computing/HelloWorld.cpp; sourceTree = "<group>"; };
 		57B3056A1BCC6A710095623B /* keyboard_input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keyboard_input.cpp; path = Guide_to_Scientific_Computing/keyboard_input.cpp; sourceTree = "<group>"; };
@@ -111,10 +140,27 @@
 		57B3058A1BCDF9880095623B /* Exercise4_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise4_2.cpp; path = Guide_to_Scientific_Computing/Exercise4_2.cpp; sourceTree = "<group>"; };
 		57B3058C1BCEEAF90095623B /* Exercise4_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise4_3.cpp; path = Guide_to_Scientific_Computing/Exercise4_3.cpp; sourceTree = "<group>"; };
 		57B3058E1BCEF8720095623B /* Exercise4_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise4_4.cpp; path = Guide_to_Scientific_Computing/Exercise4_4.cpp; sourceTree = "<group>"; };
+		57C2BC8A1BDAD29400B7D1D3 /* Exercise9_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise9_2.cpp; path = Guide_to_Scientific_Computing/Exercise9_2.cpp; sourceTree = "<group>"; };
+		57C2BC8C1BDADD4100B7D1D3 /* Exercise9_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise9_3.cpp; path = Guide_to_Scientific_Computing/Exercise9_3.cpp; sourceTree = "<group>"; };
+		57C3517D1BDC18A900406D82 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = Guide_to_Scientific_Computing/Vector.cpp; sourceTree = "<group>"; };
+		57C3517E1BDC18A900406D82 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector.hpp; path = Guide_to_Scientific_Computing/Vector.hpp; sourceTree = "<group>"; };
+		57C351801BDC18BC00406D82 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = Guide_to_Scientific_Computing/Matrix.cpp; sourceTree = "<group>"; };
+		57C351811BDC18BC00406D82 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Matrix.hpp; path = Guide_to_Scientific_Computing/Matrix.hpp; sourceTree = "<group>"; };
+		57C351831BDC43F800406D82 /* MpiHelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MpiHelloWorld.cpp; path = Guide_to_Scientific_Computing/MpiHelloWorld.cpp; sourceTree = "<group>"; };
+		57C351891BDD8FD300406D82 /* Test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test1; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C3518B1BDD8FD300406D82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		57C351901BDDA95100406D82 /* Exercise10_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise10_1.cpp; path = Guide_to_Scientific_Computing/Exercise10_1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		577365EC1B6DEB260021D747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C351861BDD8FD300406D82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,6 +175,22 @@
 			children = (
 				572955751BD1FCFE00BDDD13 /* Exercise6_1.cpp */,
 				575BC3F61BD53BFE008E36A5 /* ComplexNumber.cpp */,
+				575BC4161BD9997C008E36A5 /* Exercise8_3.cpp */,
+				575BC4181BD9FA4C008E36A5 /* Exception.cpp */,
+				575BC41B1BD9FCDB008E36A5 /* Exercise9_1.cpp */,
+				575BC4191BD9FA4C008E36A5 /* Exception.h */,
+				575BC41D1BDA01C5008E36A5 /* FileNotOpenException.cpp */,
+				575BC41E1BDA01C5008E36A5 /* FileNotOpenException.h */,
+				575BC4201BDA01E7008E36A5 /* OutOfRangeException.cpp */,
+				57C2BC8A1BDAD29400B7D1D3 /* Exercise9_2.cpp */,
+				57C2BC8C1BDADD4100B7D1D3 /* Exercise9_3.cpp */,
+				57C351801BDC18BC00406D82 /* Matrix.cpp */,
+				57C351811BDC18BC00406D82 /* Matrix.hpp */,
+				57C3517D1BDC18A900406D82 /* Vector.cpp */,
+				57C351901BDDA95100406D82 /* Exercise10_1.cpp */,
+				57C351831BDC43F800406D82 /* MpiHelloWorld.cpp */,
+				57C3517E1BDC18A900406D82 /* Vector.hpp */,
+				575BC4211BDA01E7008E36A5 /* OutOfRangeException.h */,
 				575BC3F91BD80544008E36A5 /* Exercise7_1.cpp */,
 				575BC4021BD839F5008E36A5 /* Exercise7_2.cpp */,
 				575BC4041BD840C6008E36A5 /* Exercise7_3.cpp */,
@@ -176,7 +238,17 @@
 				57B3056C1BCC6BCA0095623B /* assert_test.cpp */,
 				57B305681BCC64890095623B /* HelloWorld.cpp */,
 				57B305661BCC61D50095623B /* Guide to Scientific Computing */,
+				57C351891BDD8FD300406D82 /* Test1 */,
+				57C3518A1BDD8FD300406D82 /* Test1 */,
 			);
+			sourceTree = "<group>";
+		};
+		57C3518A1BDD8FD300406D82 /* Test1 */ = {
+			isa = PBXGroup;
+			children = (
+				57C3518B1BDD8FD300406D82 /* main.cpp */,
+			);
+			path = Test1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +271,23 @@
 			productReference = 57B305661BCC61D50095623B /* Guide to Scientific Computing */;
 			productType = "com.apple.product-type.tool";
 		};
+		57C351881BDD8FD300406D82 /* Test1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C3518D1BDD8FD300406D82 /* Build configuration list for PBXNativeTarget "Test1" */;
+			buildPhases = (
+				57C351851BDD8FD300406D82 /* Sources */,
+				57C351861BDD8FD300406D82 /* Frameworks */,
+				57C351871BDD8FD300406D82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test1;
+			productName = Test1;
+			productReference = 57C351891BDD8FD300406D82 /* Test1 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,6 +298,9 @@
 				ORGANIZATIONNAME = "Stephen O'Sullivan";
 				TargetAttributes = {
 					577365EE1B6DEB260021D747 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					57C351881BDD8FD300406D82 = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
@@ -226,6 +318,7 @@
 			projectRoot = "";
 			targets = (
 				577365EE1B6DEB260021D747 /* Guide to Scientific Computing */,
+				57C351881BDD8FD300406D82 /* Test1 */,
 			);
 		};
 /* End PBXProject section */
@@ -238,8 +331,10 @@
 				5729556E1BD06A3600BDDD13 /* Exercise5_8.cpp in Sources */,
 				575BC3FE1BD829F6008E36A5 /* Grad_student.cpp in Sources */,
 				575BC4011BD834DD008E36A5 /* PhDStudent.cpp in Sources */,
+				575BC4221BDA01E7008E36A5 /* OutOfRangeException.cpp in Sources */,
 				572955681BCF217B00BDDD13 /* Exercise5_4.cpp in Sources */,
 				572955761BD1FCFE00BDDD13 /* Exercise6_1.cpp in Sources */,
+				575BC41C1BD9FCDB008E36A5 /* Exercise9_1.cpp in Sources */,
 				5729556C1BD0656500BDDD13 /* Exercise5_7.cpp in Sources */,
 				57B305751BCC91B00095623B /* Exercise1_5.cpp in Sources */,
 				572955661BCF1CD100BDDD13 /* Exercise5_3.cpp in Sources */,
@@ -247,9 +342,11 @@
 				575BC40E1BD86543008E36A5 /* Exercise7_x.cpp in Sources */,
 				57B305811BCDA51F0095623B /* Exercise2_6.cpp in Sources */,
 				57B3058F1BCEF8720095623B /* Exercise4_4.cpp in Sources */,
+				57C3517F1BDC18A900406D82 /* Vector.cpp in Sources */,
 				575BC4031BD839F5008E36A5 /* Exercise7_2.cpp in Sources */,
 				57B305691BCC64890095623B /* HelloWorld.cpp in Sources */,
 				57B305891BCDF8170095623B /* Exercise4_1.cpp in Sources */,
+				57C351841BDC43F800406D82 /* MpiHelloWorld.cpp in Sources */,
 				5729556A1BCF2BC000BDDD13 /* Exercise5_5.cpp in Sources */,
 				575BC4131BD94FE3008E36A5 /* Exercise8_1.cpp in Sources */,
 				575BC4151BD98203008E36A5 /* Exercise8_2.cpp in Sources */,
@@ -257,9 +354,15 @@
 				57B3056F1BCC6F320095623B /* Exercise1_2.cpp in Sources */,
 				57B305711BCC701C0095623B /* Exercise1_3.cpp in Sources */,
 				572955621BCF1A7A00BDDD13 /* Exercise5_1.cpp in Sources */,
+				57C351911BDDA95100406D82 /* Exercise10_1.cpp in Sources */,
 				57B305831BCDB8E60095623B /* Exercise3_1.cpp in Sources */,
 				57B3058B1BCDF9880095623B /* Exercise4_2.cpp in Sources */,
 				57B305771BCC938A0095623B /* Exercise1_6.cpp in Sources */,
+				57C351821BDC18BC00406D82 /* Matrix.cpp in Sources */,
+				575BC41A1BD9FA4C008E36A5 /* Exception.cpp in Sources */,
+				57C2BC8B1BDAD29400B7D1D3 /* Exercise9_2.cpp in Sources */,
+				57C2BC8D1BDADD4100B7D1D3 /* Exercise9_3.cpp in Sources */,
+				575BC41F1BDA01C5008E36A5 /* FileNotOpenException.cpp in Sources */,
 				57B305791BCC9E3E0095623B /* Exercise2_2.cpp in Sources */,
 				57B3058D1BCEEAF90095623B /* Exercise4_3.cpp in Sources */,
 				575BC40C1BD846FF008E36A5 /* ForwardEulerSolver.cpp in Sources */,
@@ -270,11 +373,20 @@
 				575BC3F81BD53BFE008E36A5 /* ComplexNumber.cpp in Sources */,
 				57B3056B1BCC6A710095623B /* keyboard_input.cpp in Sources */,
 				57B305871BCDBF920095623B /* Exercise3_3.cpp in Sources */,
+				575BC4171BD9997C008E36A5 /* Exercise8_3.cpp in Sources */,
 				575BC4091BD844F4008E36A5 /* AbstractOdeSolver.cpp in Sources */,
 				575BC4111BD86DD6008E36A5 /* RungeKuttaSolver.cpp in Sources */,
 				57B3057F1BCCC7CE0095623B /* Exercise2_5.cpp in Sources */,
 				57B3057D1BCCBFDD0095623B /* Exercise2_4.cpp in Sources */,
 				575BC4061BD840C6008E36A5 /* Exercise7_3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C351851BDD8FD300406D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C3518C1BDD8FD300406D82 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,16 +470,41 @@
 		577365F71B6DEB260021D747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				PRODUCT_NAME = "Guide to Scientific Computing";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 			};
 			name = Debug;
 		};
 		577365F81B6DEB260021D747 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Library/deal.II-bundle/";
 				PRODUCT_NAME = "Guide to Scientific Computing";
+				"PUBLIC_HEADERS_FOLDER_PATH[sdk=*]" = "/Library/deal.II-bundle/openmpi-1.6.5/";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Library/deal.II-bundle/openmpi-1.6.5/";
+			};
+			name = Release;
+		};
+		57C3518E1BDD8FD300406D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57C3518F1BDD8FD300406D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -391,6 +528,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		57C3518D1BDD8FD300406D82 /* Build configuration list for PBXNativeTarget "Test1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C3518E1BDD8FD300406D82 /* Debug */,
+				57C3518F1BDD8FD300406D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
