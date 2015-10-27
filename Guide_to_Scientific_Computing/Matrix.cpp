@@ -1,5 +1,6 @@
 #include <cmath>
 #include <cassert>
+#include <iostream>
 #include "Matrix.hpp"
 #include "Vector.hpp"
 
@@ -80,6 +81,10 @@ double& Matrix::operator()(int i, int j)
    assert(j > 0);
    assert(j < mNumCols+1);
    return mData[i-1][j-1];
+}
+
+double* Matrix::operator[](int i){
+    return mData[i];
 }
 
 // Overloading the assignment operator
@@ -246,6 +251,21 @@ double Matrix::CalculateDeterminant() const
       }
    }
    return determinant;
+}
+
+std::ostream& operator<<(std::ostream& output, Matrix& matrix){
+    
+    for (int i = 0; i < matrix.mNumRows; ++i) {
+        output << "|";
+        for (int j = 0; j < matrix.mNumCols; ++j) {
+            output << matrix[i][j];
+            if (j < matrix.mNumCols-1){
+                output << " ";
+            }
+        }
+        output << "|\n";
+    }
+    return output;
 }
 
 //Code from Appendix.tex line 651 save as Matrix.cpp

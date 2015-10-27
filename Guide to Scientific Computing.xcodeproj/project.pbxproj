@@ -59,6 +59,10 @@
 		57C351841BDC43F800406D82 /* MpiHelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351831BDC43F800406D82 /* MpiHelloWorld.cpp */; };
 		57C3518C1BDD8FD300406D82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C3518B1BDD8FD300406D82 /* main.cpp */; };
 		57C351911BDDA95100406D82 /* Exercise10_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351901BDDA95100406D82 /* Exercise10_1.cpp */; };
+		57C351941BDEDF6F00406D82 /* LinearSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351921BDEDF6F00406D82 /* LinearSystem.cpp */; };
+		57C351961BDEE03600406D82 /* Exercise10_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351951BDEE03600406D82 /* Exercise10_3.cpp */; };
+		57C351991BDF30A100406D82 /* PosDefSymmLinearSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C351971BDF30A100406D82 /* PosDefSymmLinearSystem.cpp */; };
+		57C72F241BE037D600CD51D8 /* Example11_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C72F231BE037D600CD51D8 /* Example11_5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -150,6 +154,12 @@
 		57C351891BDD8FD300406D82 /* Test1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test1; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C3518B1BDD8FD300406D82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		57C351901BDDA95100406D82 /* Exercise10_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise10_1.cpp; path = Guide_to_Scientific_Computing/Exercise10_1.cpp; sourceTree = "<group>"; };
+		57C351921BDEDF6F00406D82 /* LinearSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearSystem.cpp; path = Guide_to_Scientific_Computing/LinearSystem.cpp; sourceTree = "<group>"; };
+		57C351931BDEDF6F00406D82 /* LinearSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LinearSystem.hpp; path = Guide_to_Scientific_Computing/LinearSystem.hpp; sourceTree = "<group>"; };
+		57C351951BDEE03600406D82 /* Exercise10_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exercise10_3.cpp; path = Guide_to_Scientific_Computing/Exercise10_3.cpp; sourceTree = "<group>"; };
+		57C351971BDF30A100406D82 /* PosDefSymmLinearSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PosDefSymmLinearSystem.cpp; path = Guide_to_Scientific_Computing/PosDefSymmLinearSystem.cpp; sourceTree = "<group>"; };
+		57C351981BDF30A100406D82 /* PosDefSymmLinearSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PosDefSymmLinearSystem.h; path = Guide_to_Scientific_Computing/PosDefSymmLinearSystem.h; sourceTree = "<group>"; };
+		57C72F231BE037D600CD51D8 /* Example11_5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Example11_5.cpp; path = Guide_to_Scientific_Computing/Example11_5.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +235,12 @@
 				572955691BCF2BC000BDDD13 /* Exercise5_5.cpp */,
 				5729556B1BD0656500BDDD13 /* Exercise5_7.cpp */,
 				5729556D1BD06A3600BDDD13 /* Exercise5_8.cpp */,
+				57C351921BDEDF6F00406D82 /* LinearSystem.cpp */,
+				57C351951BDEE03600406D82 /* Exercise10_3.cpp */,
+				57C351971BDF30A100406D82 /* PosDefSymmLinearSystem.cpp */,
+				57C72F231BE037D600CD51D8 /* Example11_5.cpp */,
+				57C351981BDF30A100406D82 /* PosDefSymmLinearSystem.h */,
+				57C351931BDEDF6F00406D82 /* LinearSystem.hpp */,
 				57B3056E1BCC6F320095623B /* Exercise1_2.cpp */,
 				57B305701BCC701C0095623B /* Exercise1_3.cpp */,
 				57B305721BCC78D40095623B /* Exercise1_4.cpp */,
@@ -332,6 +348,7 @@
 				575BC3FE1BD829F6008E36A5 /* Grad_student.cpp in Sources */,
 				575BC4011BD834DD008E36A5 /* PhDStudent.cpp in Sources */,
 				575BC4221BDA01E7008E36A5 /* OutOfRangeException.cpp in Sources */,
+				57C351991BDF30A100406D82 /* PosDefSymmLinearSystem.cpp in Sources */,
 				572955681BCF217B00BDDD13 /* Exercise5_4.cpp in Sources */,
 				572955761BD1FCFE00BDDD13 /* Exercise6_1.cpp in Sources */,
 				575BC41C1BD9FCDB008E36A5 /* Exercise9_1.cpp in Sources */,
@@ -348,6 +365,7 @@
 				57B305891BCDF8170095623B /* Exercise4_1.cpp in Sources */,
 				57C351841BDC43F800406D82 /* MpiHelloWorld.cpp in Sources */,
 				5729556A1BCF2BC000BDDD13 /* Exercise5_5.cpp in Sources */,
+				57C72F241BE037D600CD51D8 /* Example11_5.cpp in Sources */,
 				575BC4131BD94FE3008E36A5 /* Exercise8_1.cpp in Sources */,
 				575BC4151BD98203008E36A5 /* Exercise8_2.cpp in Sources */,
 				57B305731BCC78D40095623B /* Exercise1_4.cpp in Sources */,
@@ -359,8 +377,10 @@
 				57B3058B1BCDF9880095623B /* Exercise4_2.cpp in Sources */,
 				57B305771BCC938A0095623B /* Exercise1_6.cpp in Sources */,
 				57C351821BDC18BC00406D82 /* Matrix.cpp in Sources */,
+				57C351961BDEE03600406D82 /* Exercise10_3.cpp in Sources */,
 				575BC41A1BD9FA4C008E36A5 /* Exception.cpp in Sources */,
 				57C2BC8B1BDAD29400B7D1D3 /* Exercise9_2.cpp in Sources */,
+				57C351941BDEDF6F00406D82 /* LinearSystem.cpp in Sources */,
 				57C2BC8D1BDADD4100B7D1D3 /* Exercise9_3.cpp in Sources */,
 				575BC41F1BDA01C5008E36A5 /* FileNotOpenException.cpp in Sources */,
 				57B305791BCC9E3E0095623B /* Exercise2_2.cpp in Sources */,
@@ -536,6 +556,7 @@
 				57C3518F1BDD8FD300406D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

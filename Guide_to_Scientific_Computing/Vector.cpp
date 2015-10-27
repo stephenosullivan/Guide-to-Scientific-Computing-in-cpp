@@ -192,6 +192,15 @@ Vector Vector::operator*(double a) const
    return v;
 }
 
+// Dot product
+double Vector::operator*(const Vector& other) const{
+    double sum = 0;
+    for (int i = 0; i < mSize; ++i) {
+        sum += (*this)[i] * other[i];
+    }
+    return sum;
+}
+
 // Method to calculate norm (with default value p=2)
 // corresponding to the Euclidean norm
 double Vector::CalculateNorm(int p) const

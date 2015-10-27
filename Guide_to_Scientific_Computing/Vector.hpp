@@ -25,6 +25,7 @@ public:
    Vector operator-(const Vector& v1) const; // binary -
    // scalar multiplication
    Vector operator*(double a) const;
+    double operator*(const Vector& other) const;
    // p-norm method
    double CalculateNorm(int p=2) const;
    // declare length function as a friend

@@ -1,6 +1,7 @@
 #ifndef MATRIXHEADERDEF
 #define MATRIXHEADERDEF
 #include "Vector.hpp"
+#include <iostream>
 
 class Matrix
 {
@@ -14,6 +15,7 @@ public:
    int GetNumberOfRows() const;
    int GetNumberOfColumns() const;
    double& operator()(int i, int j); //1-based indexing
+    double* operator[](int i);
    //overloaded assignment operator
    Matrix& operator=(const Matrix& otherMatrix);
    Matrix operator+() const; // unary +
@@ -28,6 +30,7 @@ public:
                            const Vector& v);
    friend Vector operator*(const Vector& v, 
                            const Matrix& m);
+    friend std::ostream& operator<<(std::ostream& output, Matrix& matrix);
 };
 // prototype signatures for friend operators
 Vector operator*(const Matrix& m, const Vector& v);

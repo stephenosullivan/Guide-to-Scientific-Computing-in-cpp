@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Vector.cpp"
+#include "Exception.h"
 
 
 int main(){
